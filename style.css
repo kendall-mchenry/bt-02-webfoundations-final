@@ -1,0 +1,53 @@
+/* New font?  */
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; /* Footer height */
+  background-color: #edede9;
+}
+
+.container1 {
+  background-color: #a5a58d;
+}
+
+.container2 {
+  background-color: #edede9;
+}
+
+.container3 {
+  background-color: #7c8367;
+}
+
+.list-group-item {
+  border: 2px solid #8a817c;
+  padding-left: 2em;
+}
+
+.list-group {
+  border-radius: 8px;
+}
+
+#hover1:hover,
+#hover2:hover,
+#hover3:hover {
+  background-color: #d6ccc2;
+}
+
+#kodaMain {
+  border: 2px solid #8a817c;
+  border-radius: 8px;
+}
